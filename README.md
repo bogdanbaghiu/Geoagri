@@ -7,3 +7,11 @@ Numele țării unde se află acest IP Regiunea din acea tară unde se află aces
 IP Instrucțiuni:
 folosește API-ul de la adresa freegeoip.app pentru a obține informațiile; IP-urile din fișier se presupun a fi valide,
 nefiind nevoie de validarea lor; Exemple de IP-uri: 8.8.8.8 , 140.82.121.3
+
+# Exercitiu 2 - Manage IPs
+
+Se da un șir de caractere care conține paranteze rotunde. Scrie o funcție care
+verifică dacă orice paranteză deschisă are corespondent într-o paranteză închisă
+(orice paranteză care se deschide se și închide). Exemple de șiruri de caractere:
+    a) a(b(x)d)efghijkl
+    b) (123).)(qw(e)
