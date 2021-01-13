@@ -1,4 +1,4 @@
-# Exercitiu 1 - Manage IPs
+# Exercițiu 1 - Manage IPs
 
 Se da un fișier text care conține pe fiecare linie câte o adresă IP. În baza acestui fișier text generează un fișier XLS
 care să conțină pe fiecare linie următoarele informații, separate pe fiecare coloană:
@@ -8,7 +8,7 @@ IP Instrucțiuni:
 folosește API-ul de la adresa freegeoip.app pentru a obține informațiile; IP-urile din fișier se presupun a fi valide,
 nefiind nevoie de validarea lor; Exemple de IP-uri: 8.8.8.8 , 140.82.121.3
 
-# Exercitiu 2 - Manage IPs
+# Exercițiu 2 - Manage IPs
 
 Se da un șir de caractere care conține paranteze rotunde. Scrie o funcție care
 verifică dacă orice paranteză deschisă are corespondent într-o paranteză închisă
@@ -16,7 +16,7 @@ verifică dacă orice paranteză deschisă are corespondent într-o paranteză �
     a) a(b(x)d)efghijkl
     b) (123).)(qw(e)
 
-# Exercitiu 3 - Duplicate Transactions
+# Exercițiu 3 - Duplicate Transactions
 
 Se dă o listă de tranzacții care reprezintă plățile făcute dintr-un cont bancar către
 un alt cont. Câteodată se pot înregistra erori, iar unele tranzacții se vor duplica.
@@ -26,7 +26,7 @@ tranzacție și data/ora la care au fost făcute. Astfel, o tranzacție se consi
 duplicatul alteia dacă cele două au același valori pe cheile sourceAccount ,
 targetAccount , amount și sunt făcute la mai puțin de 1 minut una de cealaltă.
 
-# Exercitiu 4 - Identificarea erorii
+# Exercițiu 4 - Identificarea erorii
 
 Descrie în câteva rânduri cum ai încerca rezolvarea problemei descrisă mai jos. Nu
 există un răspuns corect, nu trebuie să scrii cod, trebuie doar să scrii care ar putea
