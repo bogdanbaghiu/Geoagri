@@ -15,3 +15,13 @@ verifică dacă orice paranteză deschisă are corespondent într-o paranteză �
 (orice paranteză care se deschide se și închide). Exemple de șiruri de caractere:
     a) a(b(x)d)efghijkl
     b) (123).)(qw(e)
+
+# Exercitiu 3 - Duplicate Transactions
+
+Se dă o listă de tranzacții care reprezintă plățile făcute dintr-un cont bancar către
+un alt cont. Câteodată se pot înregistra erori, iar unele tranzacții se vor duplica.
+Trebuie să găsim aceste tranzacții pentru a le putea anula. Identificarea lor se face
+găsind tranzacțiile care au aceleași informații mai puțin identificatorul de
+tranzacție și data/ora la care au fost făcute. Astfel, o tranzacție se consideră
+duplicatul alteia dacă cele două au același valori pe cheile sourceAccount ,
+targetAccount , amount și sunt făcute la mai puțin de 1 minut una de cealaltă.
